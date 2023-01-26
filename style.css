@@ -198,7 +198,7 @@ ul {
     display: flexbox;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1380px) {
 
     nav {
         flex-wrap:wrap;
@@ -208,13 +208,19 @@ ul {
     }
 }
 
-
+.conteneur {
+    margin: 5% 0px 15px 10%;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 30px 500px 30px 500px;
+    gap: 50px;
+}
 
 table.tb { 
-    margin: 5% 0% 0% 5%;
-    width: 300px; border-collapse: collapse; 
-    height: 300px;
-    text-align: start;
+    
+    border-collapse: collapse; 
+    
+    text-align: center;
 }
 
 .tb th, .tb td { border: solid 1px #777; padding: 5px; }
