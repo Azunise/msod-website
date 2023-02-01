@@ -211,7 +211,7 @@ ul {
 .conteneur {
     margin: 5% 0px 15px 10%;
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 200px 200px 200px;
     grid-template-rows: 30px 500px 30px 500px;
     gap: 50px;
 }
