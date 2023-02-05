@@ -35,7 +35,7 @@ body {
 
 .bannerimage {
     margin : auto;
-    background-image: url(images/meme-sans-costumes-traditionnels-les-orangeois-sont-les-bienvenus-pour-apprendre-a-danser-1556898974.jpg);
+    background-image: url(images/bal-trad.jpg);
     background-size: cover;
     height: 600px;
 }
@@ -231,3 +231,22 @@ table.tb {
 p.indent {
     text-indent: 30px;
 }
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 120px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.fixed {
+    position: fixed;
+    background-image: url(images/logo.png);
+    background-size: cover;
+    top: 0;
+    left: 0;
+  }
